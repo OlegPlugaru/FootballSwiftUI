@@ -9,12 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var viewModel = TeamsViewModel()
+    private let audioManager = AudioManagerViewModel()
     
     var body: some View {
-        List(viewModel.teams) { team in
-            TeamCardView(team: team) { selectedTeam in
-                viewModel.togglePlayback(for: selectedTeam)
+        NavigationView {
+            List(viewModel.teams) { team in
+                TeamCardView(team: team) { selectedTeam in
+                    audioManager.playback(selectedTeam)
+                    viewModel.togglePlayback(for: selectedTeam)
+                }
             }
+            .navigationTitle("Football Chants")
         }
     }
 }

@@ -35,6 +35,7 @@
 		DD463EAC2B4A9DCF002B4CB5 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD463EAB2B4A9DCF002B4CB5 /* Manager.swift */; };
 		DD463EAF2B4AD0B4002B4CB5 /* TeamCardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD463EAE2B4AD0B4002B4CB5 /* TeamCardViewModifier.swift */; };
 		DD463EB22B4AD3A2002B4CB5 /* TeamCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD463EB12B4AD3A2002B4CB5 /* TeamCardView.swift */; };
+		DD463EB42B4AF1F8002B4CB5 /* AudioManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD463EB32B4AF1F8002B4CB5 /* AudioManagerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		DD463EAB2B4A9DCF002B4CB5 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		DD463EAE2B4AD0B4002B4CB5 /* TeamCardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCardViewModifier.swift; sourceTree = "<group>"; };
 		DD463EB12B4AD3A2002B4CB5 /* TeamCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCardView.swift; sourceTree = "<group>"; };
+		DD463EB32B4AF1F8002B4CB5 /* AudioManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				DD430A2B2B49D71B001DE8F0 /* TeamsViewModel.swift */,
+				DD463EB32B4AF1F8002B4CB5 /* AudioManagerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				DD463EB22B4AD3A2002B4CB5 /* TeamCardView.swift in Sources */,
 				DD463EAC2B4A9DCF002B4CB5 /* Manager.swift in Sources */,
 				DD430A2C2B49D71B001DE8F0 /* TeamsViewModel.swift in Sources */,
+				DD463EB42B4AF1F8002B4CB5 /* AudioManagerViewModel.swift in Sources */,
 				DD4309972B49736B001DE8F0 /* ContentView.swift in Sources */,
 				DD463EAF2B4AD0B4002B4CB5 /* TeamCardViewModifier.swift in Sources */,
 				DD430A2F2B49D75F001DE8F0 /* Team.swift in Sources */,
