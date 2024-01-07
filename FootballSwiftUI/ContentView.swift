@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = TeamsViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(viewModel.teams) { team in
+            TeamCardView(team: team) { selectedTeam in
+                viewModel.togglePlayback(for: selectedTeam)
+            }
         }
-        .padding()
     }
 }
 
